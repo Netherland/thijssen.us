@@ -1,0 +1,331 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 12.5%;
+  top: 50%;
+  width: 75%;
+  z-index: 9999;
+  height:10px;
+}
+
+.whitebg {
+  position:fixed;
+  width:100%;
+height:100%;
+background-color:white;
+z-index:9998;
+}
+
+#index-banner {
+  padding-top:60px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.pattern {
+   background-image: url("img/squairy_light2.png");
+   background-repeat: repeat;
+}
+
+.smedia {
+  border-radius:5px;
+}
+
+.hearts {
+  color: #FFB8D3;
+}
+
+.materialize {
+  color: #ee6e73;
+}
+
+.waves-effect.waves-twitter .waves-ripple {
+  background-color: rgba( 86, 163, 217, 0.7);
+}
+
+.waves-effect.waves-facebook .waves-ripple {
+  background-color: rgba(59, 89, 152, 0.7);
+}
+
+.waves-effect.waves-google .waves-ripple {
+  background-color: rgba(221, 75, 57, 0.7);
+}
+
+.waves-effect.waves-linkedin .waves-ripple {
+  background-color: rgba(0, 123, 182, 0.7);
+}
+
+.twitter {
+  background-color: rgba( 86, 163, 217, 0.7);
+}
+
+.facebook {
+  background-color: rgba(59, 89, 152, 0.7);
+}
+
+.google {
+  background-color: rgba(221, 75, 57, 0.7);
+}
+
+.linkedin {
+  background-color: rgba(0, 123, 182, 0.7);
+}
+
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #fff;
+}
+
+.parallax-container {
+  min-height: 380px;    /* 380px Default */
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+}
+
+.small {
+  height:150px;
+  min-height:0px;
+}
+
+.page1 {
+    background-color:rgba(0,188,212,0.5);
+}
+
+.page2 {
+  background-color:rgba(0,150,136,0.5);
+}
+
+.page3 {
+  background-color:rgba(103,58,183,0.5);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .skillst6 .count-bar.color-4{
+    min-width:140px;
+  }
+
+  .skillst6 .count-bar.color-6{
+    min-width:140px;
+  }
+
+    .skillst6 .count-bar.color-9{
+    min-width:220px;
+  }
+
+    .skillst6 .count-bar.color-10{
+    min-width:225px;
+  }
+      .skillst6 .count-bar.color-1{
+    min-width:140px;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.wraper{
+  width:470px;
+  margin:50px auto;
+}
+
+.wraper:before,
+.wraper:after {
+  display: table;
+  content: " ";
+}
+
+.wraper:after{
+  clear: both;
+}
+
+/* Skills Style 6 */
+
+.skillst6{
+  width:100%;
+  color:#fff;
+}
+.skillst6 .skillbar{
+  width: 100%;
+  height: 40px;
+  position:relative;
+  margin-bottom:30px;
+background-color:rgba(3,169,244,0.5);
+border-radius: 5px;
+}
+.skillst6 .count-bar{
+  height: 100%;
+  width:0px;
+  position:relative;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.skillst6 .count-bar.color-1{
+  background-color: #2d6ddb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2d6ddb), to(#0f3265));
+  background-image: -webkit-linear-gradient(top, #2d6ddb, #0f3265);
+  background-image: -moz-linear-gradient(top, #2d6ddb, #0f3265);
+  background-image: -ms-linear-gradient(top, #2d6ddb, #0f3265);
+  background-image: -o-linear-gradient(top, #2d6ddb, #0f3265);
+  background-image: linear-gradient(top, #2d6ddb, #0f3265);
+
+}
+.skillst6 .count-bar.color-2{
+  background-color: #f06529;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f06529), to(#e34c26));
+  background-image: -webkit-linear-gradient(top, #f06529, #e34c26);
+  background-image: -moz-linear-gradient(top, #f06529, #e34c26);
+  background-image: -ms-linear-gradient(top, #f06529, #e34c26);
+  background-image: -o-linear-gradient(top, #f06529, #e34c26);
+  background-image: linear-gradient(top, #f06529, #e34c26);
+
+}
+.skillst6 .count-bar.color-3{
+  background-color: #29a9df;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#29a9df), to(#0170ba));
+  background-image: -webkit-linear-gradient(top, #29a9df, #0170ba);
+  background-image: -moz-linear-gradient(top, #29a9df, #0170ba);
+  background-image: -ms-linear-gradient(top, #29a9df, #0170ba);
+  background-image: -o-linear-gradient(top, #29a9df, #0170ba);
+  background-image: linear-gradient(top, #29a9df, #0170ba);
+
+}
+.skillst6 .count-bar.color-4{
+  background-color: #f1bf26;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f1bf26), to(#e6a327));
+  background-image: -webkit-linear-gradient(top, #f1bf26, #e6a327);
+  background-image: -moz-linear-gradient(top, #f1bf26, #e6a327);
+  background-image: -ms-linear-gradient(top, #f1bf26, #e6a327);
+  background-image: -o-linear-gradient(top, #f1bf26, #e6a327);
+  background-image: linear-gradient(top, #f1bf26, #e6a327);
+
+}
+.skillst6 .count-bar.color-5{
+  background-color: #ffec45;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffec45), to(#f48020));
+  background-image: -webkit-linear-gradient(top, #ffec45, #f48020);
+  background-image: -moz-linear-gradient(top, #ffec45, #f48020);
+  background-image: -ms-linear-gradient(top, #ffec45, #f48020);
+  background-image: -o-linear-gradient(top, #ffec45, #f48020);
+  background-image: linear-gradient(top, #ffec45, #f48020)
+
+}
+
+.skillst6 .count-bar.color-6{
+  background-color: #f4793b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4793b), to(#cc3300));
+  background-image: -webkit-linear-gradient(top, #f4793b, #cc3300);
+  background-image: -moz-linear-gradient(top, #f4793b, #cc3300);
+  background-image: -ms-linear-gradient(top, #f4793b, #cc3300);
+  background-image: -o-linear-gradient(top, #f4793b, #cc3300);
+  background-image: linear-gradient(top, #f4793b, #cc3300);
+
+}
+.skillst6 .count-bar.color-7{
+  background-color: #5f8a96;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7bb9d0), to(#122972));
+  background-image: -webkit-linear-gradient(top, #5f8a96, #122972);
+  background-image: -moz-linear-gradient(top, #5f8a96, #122972);
+  background-image: -ms-linear-gradient(top, #5f8a96, #122972);
+  background-image: -o-linear-gradient(top, #5f8a96, #122972);
+  background-image: linear-gradient(top, #5f8a96, #122972);
+
+}
+
+.skillst6 .count-bar.color-8{
+  background-color: #00adef;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00adef), to(#00609c));
+  background-image: -webkit-linear-gradient(top, #00adef, #00609c);
+  background-image: -moz-linear-gradient(top, #00adef, #00609c);
+  background-image: -ms-linear-gradient(top, #00adef, #00609c);
+  background-image: -o-linear-gradient(top, #00adef, #00609c);
+  background-image: linear-gradient(top, #00adef, #00609c);
+
+}
+
+.skillst6 .count-bar.color-9{
+  background-color: #0078D6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0078D6), to(#005596));
+  background-image: -webkit-linear-gradient(top, #0078D6, #005596);
+  background-image: -moz-linear-gradient(top, #0078D6, #005596);
+  background-image: -ms-linear-gradient(top, #0078D6, #005596);
+  background-image: -o-linear-gradient(top, #0078D6, #005596);
+  background-image: linear-gradient(top, #0078D6, #005596);
+
+}
+
+.skillst6 .count-bar.color-10{
+  background-color: #EF7544;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#EF7544), to(#AF5633));
+  background-image: -webkit-linear-gradient(top, #EF7544, #AF5633);
+  background-image: -moz-linear-gradient(top, #EF7544, #AF5633);
+  background-image: -ms-linear-gradient(top, #EF7544, #AF5633);
+  background-image: -o-linear-gradient(top, #EF7544, #AF5633);
+  background-image: linear-gradient(top, #EF7544, #AF5633);
+
+}
+.skillst6 .title{
+  font-size:14px;
+  font-weight:400;
+  padding-left:12px;
+  line-height:40px;
+  text-transform:uppercase;
+}
+.skillst6 .count{
+  position:absolute;
+  top:0;
+  right:12px;
+  line-height:40px;
+  font-size:14px;
+  font-weight:400;
+}
+
+.iconcircle {
+  height:100px;
+  width:100px;
+  border:3px solid #795548;
+  border-radius:255px;
+  text-align:center;
+  line-height:110px;
+  margin:0px auto 0;
+  background-color:rgba(255,255,255,0.3);
+}
